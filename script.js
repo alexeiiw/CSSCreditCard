@@ -93,6 +93,10 @@ function onInputChange(input,newValue) {
     else if (firstFour.startsWith("5")) {
         logo.src = "mastercard.svg"
     }
+    //else {
+    //    alert("Invalid data!")
+    //    firstFour.focus()
+    //}
 }
 
 function focusInput(input, dataLength) {
