@@ -94,6 +94,10 @@
     flex-grow: 1;
 }
 
+.name-group input {
+    text-transform: uppercase;
+}
+
 .credit-card .front::before {
     content: "";
     position: absolute;
